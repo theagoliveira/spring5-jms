@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SfgJmsApplication<sfg-jms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "guru.springframework.sfgjms.SfgJmsApplication",
+      "projectName": "sfg-jms",
+      "args": ""
+    }
+  ]
+}
