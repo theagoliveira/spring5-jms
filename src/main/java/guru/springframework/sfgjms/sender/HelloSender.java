@@ -33,7 +33,9 @@ public class HelloSender {
                                        .id(UUID.randomUUID())
                                        .message("Hello, World!")
                                        .build();
+        log.info("Sending HelloWorldMessage");
         jmsTemplate.convertAndSend(JmsConfig.MY_QUEUE, message);
+        log.info("Sent!");
     }
 
     @Scheduled(fixedRate = 2000)

@@ -1,3 +1,7 @@
-logging:
-  level:
-    '[org.apache.activemq]': off
+# logging:
+#   level:
+#     '[org.apache.activemq]': off
+spring:
+  artemis:
+    user: artemis
+    password: simetraehcapa
